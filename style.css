@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name         CS Silver-studded Blue
+@name         CS Valentine
 @namespace    USO Archive
 @author       june "layercake" "fleuraward" claw
 @description  Switch to CS DULL GREEN to use. Need accompanying userscript to fix various pages like adopts and pet bgs. Most of the css was ripped straight from the site, I edited all the images myself (yay...) and changed everything to use variables for easier editing. This means some notes in the original css might still be in there
@@ -10,46 +10,48 @@
 @-moz-document domain("chickensmoothie.com"){
 :root {
 /* this is the stuff i specifically changed for themeing */
-    --background: #607ace;
-    --middle-green: #93adff;
-    --middle-green-2: #95aeff;
-    --lighter-green: #e0e8ff;
-    --accentbox-etc-green: #c1d0ff;
-    --darker-accentbox-etc-green: #aec1ff;
-    --muddy-green: #637dd1;
-    --bright-green: #90aafe;
-    --bright-green-hov: #708ade;
-    --single-use-green-1: #e3eaff;
-    --single-use-green-2: #e1e8ff;
-    --single-use-green-3: #657fd3;
-    --menu-bg: #d1dcff;
-    --menu-border: #405aae;
-    --trade-hl: #eaefff;
-    --trade-hl-color: #22242c;
-    --trade-fancy: #e0e8ff;
-    --ui-border: #516bbf;
-    --ui-soft-border: #95aeff;
-    --ui-active-border: #8d95ac;
-    --header: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/head.png");
-    --ruffle: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/vert_ruffle.png");
-    --nav: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/nav.png");
-    --ui-flat: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/ui-bg_flat_60_3d8d2c_40x100.png");
-    --ui-soft: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/ui-bg_highlight-soft_50_327224_1x100.png");
-    --ui-active: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/ui-bg_highlight-soft_65_e0f6b2_1x100.png");
-    --corner-left1: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/corners_left.png");
-    --corner-right1: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/corners_right.png");
-    --corner-left2: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/corners_left2.png");
-    --corner-right2:  url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/corners_right2.png");
-    --corner-left3: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/corners_left3.png");
-    --corner-right3: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/corners_right3.png");
-    --corner-edge-left: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/edged_left.png");
-    --corner-edge-right: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/edged_right.png");
-    --bg-tab-1: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/bg_tabs1.png");
-    --bg-tab-2: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/bg_tabs2.png");
-    --newicon: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/new48.png");
-    --ui-trade-main: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/ui-bg_flat_100_c6e194_40x100.png");
-    --ui-trade-header: url("https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/ui-bg_flat_33_4ba139_40x100.png");
-    
+    --background: #c15397;
+    --middle-green: #f486ca;
+    --middle-green-2: #f587cb;
+    --lighter-green: #ffdaf1;
+    --accentbox-etc-green: #ffb5e3;
+    --darker-accentbox-etc-green: #ff9fda;
+    --muddy-green: #c4569a;
+    --bright-green: #f183c7;
+    --bright-green-hov: #d163a7;
+    --single-use-green-1: #ffdef2;
+    --single-use-green-2: #ffdbf1;
+    --single-use-green-3: #c6589c;
+    --menu-bg: #ffc9ea;
+    --menu-border: #a13377;
+    --trade-hl: #ffe6f5;
+    --trade-hl-color: #2c2229;
+    --trade-fancy: #ffdaf1;
+    --ui-border: #825d74;
+    --ui-soft-border: #f587cb;
+    --ui-active-border: #ac8da0;
+    --header: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/head.png");
+    --ruffle: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/vert_ruffle.png");
+    --nav: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/nav.png");
+    --ui-flat: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/ui-bg_flat_60_3d8d2c_40x100.png");
+    --ui-soft: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/ui-bg_highlight-soft_50_327224_1x100.png");
+    --ui-active: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/ui-bg_highlight-soft_65_e0f6b2_1x100.png");
+    --corner-left1: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/corners_left.png");
+    --corner-right1: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/corners_right.png");
+    --corner-left2: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/corners_left2.png");
+    --corner-right2:  url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/corners_right2.png");
+    --corner-left3: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/corners_left3.png");
+    --corner-right3: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/corners_right3.png");
+    --corner-edge-left: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/edged_left.png");
+    --corner-edge-right: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/edged_right.png");
+    --bg-tab-1: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/bg_tabs1.png");
+    --bg-tab-2: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/bg_tabs2.png");
+    --newicon: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/new48.png");
+    --ui-trade-main: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/ui-bg_flat_100_c6e194_40x100.png");
+    --ui-trade-header: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/ui-bg_flat_33_4ba139_40x100.png");
+    --link-blue: #47002c; 
+    --hover-link-blue: #9c2e72;
+
 /* everything else i kept the same, just made it all into variables so things can be easier to edit if needed */
     --foreground: #202020;
     --heading-2: #24273B;
@@ -107,8 +109,6 @@
     --blue-4: #5D8FBD;
     --blue-5: #0D4473;
     --blue-6: #105289;
-    --link-blue: #0000ee;
-    --hover-link-blue: #4444ee;
     --pink: #F3BFCC;
     --wine-red: #75292d;
     --orang: #FF6600;
@@ -1260,12 +1260,12 @@ body.lostandfound .popover-body {
     
     .ui-widget-content {
   border: 1px solid #7690e4;
-  background: #c1d0ff var(--ui-trade-main) 50% 50% repeat-x;
+  background: #ffb5e3 var(--ui-trade-main) 50% 50% repeat-x;
     }
     
     .ui-widget-header {
-  border: 1px solid #607ace;
-  background: #607ace var(--ui-trade-header) 50% 50% repeat-x;
+  border: 1px solid #c15397;
+  background: #c15397 var(--ui-trade-header) 50% 50% repeat-x;
     }
     
     .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
