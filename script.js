@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         CS Silver-studded Blue - Image fixes
+// @name         CS Valentine - Image fixes
 // @namespace    http://tampermonkey.net/
 // @version      20260530.03
 // @description  fixing images across cs to fit theme
