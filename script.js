@@ -14,29 +14,29 @@
     'use strict';
     // images for the adopt section
 const adoptandstoreimgs = {
-    'dogs': 'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/dogs.png',
-    'horses':'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/horses.png',
-    'cats':'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/cats.png',
-    'butterfly wolves':'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/butterflywolves.png',
-    'rodents':'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/rodents.png',
-    'second-generation pets':'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/2ndgens.png',
-    'hatchery':'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/hatchery.png',
-    'other':'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/other.png',
+    'dogs': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/dogs.png',
+    'horses':'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/horses.png',
+    'cats':'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/cats.png',
+    'butterfly wolves':'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/butterflywolves.png',
+    'rodents':'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/rodents.png',
+    'second-generation pets':'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/2ndgens.png',
+    'hatchery':'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/hatchery.png',
+    'other':'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/other.png',
 
-    'category.php?id=8': 'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/accessories.png',
-    'category.php?id=11': 'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/wigs.png',
-    'category.php?id=2': 'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/costumes.png',
-    'category.php?id=3': 'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/casual.png',
-    'category.php?id=5': 'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/objects.png',
-    'category.php?id=1': 'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/extra.png',
-    'category.php?id=7': 'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/pets.png',
-    'category.php?id=9': 'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/specials.png'
+    'category.php?id=8': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/accessories.png',
+    'category.php?id=11': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/wigs.png',
+    'category.php?id=2': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/costumes.png',
+    'category.php?id=3': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/casual.png',
+    'category.php?id=5': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/objects.png',
+    'category.php?id=1': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/extra.png',
+    'category.php?id=7': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/pets.png',
+    'category.php?id=9': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/specials.png'
 };
 
     // images for the forum pages
     const forumnimgs = {
-        'forum_unread_subforum.gif': 'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/forum_unread_subforum.png',
-        'forum_unread.gif': 'https://raw.githubusercontent.com/fleuraward/CS-Silver-Studded-Blue/refs/heads/main/assets/forum_unread.png'
+        'forum_unread_subforum.gif': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/forum_unread_subforum.png',
+        'forum_unread.gif': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/forum_unread.png'
     };
 
     // replace forum background images

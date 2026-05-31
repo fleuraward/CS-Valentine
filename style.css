@@ -557,7 +557,7 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-  background-color: var(--off-white-13);
+  background-color: var(--off-white-13) !important;
   background-image: url("https://www.chickensmoothie.com/Forum/styles/CSDullGreen/theme/images/quote.gif");
   border-color: var(--off-white-14);
 }
