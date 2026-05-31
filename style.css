@@ -27,6 +27,7 @@
     --trade-hl: #ffe6f5;
     --trade-hl-color: #2c2229;
     --trade-fancy: #ffdaf1;
+    --ui-widget-border: #d769ad;
     --ui-border: #825d74;
     --ui-soft-border: #f587cb;
     --ui-active-border: #ac8da0;
@@ -1259,7 +1260,7 @@ body.lostandfound .popover-body {
 }
     
     .ui-widget-content {
-  border: 1px solid #7690e4;
+  border: 1px solid var(--ui-widget-border);
   background: #ffb5e3 var(--ui-trade-main) 50% 50% repeat-x;
     }
     
