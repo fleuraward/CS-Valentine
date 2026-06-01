@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CS Valentine - Image fixes
 // @namespace    http://tampermonkey.net/
-// @version      20260530.03
+// @version      20260601.01
 // @description  fixing images across cs to fit theme
 // @author       june "layercake" "fleuraward" claw
 // @match        https://www.chickensmoothie.com/*
