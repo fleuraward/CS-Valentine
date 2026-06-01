@@ -61,9 +61,9 @@ const adoptandstoreimgs = {
             const imgUrl = new URL(img.src);
 
             const petsandarchive = {
-                'e0f6b2': 'e0e8ff', // pet images across site
-                '99c57c': '95aeff', // archive images
-                'c6e194': 'c1d0ff' // pets in trades
+                'e0f6b2': 'ffdaf1', // pet images across site
+                '99c57c': 'f587cb', // archive images
+                'c6e194': 'ffb5e3' // pets in trades
             };
 
             const currentBg = imgUrl.searchParams.get('bg');
