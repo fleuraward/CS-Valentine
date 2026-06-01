@@ -34,6 +34,7 @@
     --header: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/head.png");
     --ruffle: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/vert_ruffle.png");
     --nav: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/nav.png");
+    --nav-adopt: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/nav-adopt.png");
     --ui-flat: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/ui-bg_flat_60_3d8d2c_40x100.png");
     --ui-soft: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/ui-bg_highlight-soft_50_327224_1x100.png");
     --ui-active: url("https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/ui-bg_highlight-soft_65_e0f6b2_1x100.png");
@@ -86,23 +87,23 @@
     --blue-40: #404080;
     --ok-header-link: #202040;
     --blue-dark-1: #0F4987;
-    --off-white-1: #f3f1eb;
-    --off-white-2: #ece9e1;
-    --off-white-3: #DCDEE2;
-    --off-white-4: #E7E8EA;
-    --off-white-5: #FAFAFA;
-    --off-white-6: #ECEDEE;
-    --off-white-7: #F7ECEF;
-    --off-white-8: #ECD5D8;
-    --off-white-9: #C8E6FF;
-    --off-white-10: #F2F3F3;
-    --off-white-11: #eef5f9;
-    --off-white-12: #D0E4F6;
-    --off-white-13: #EBEADD;
-    --off-white-14: #DBDBCE;
-    --off-white-15: #EFEED9;
-    --off-white-16: #C9D2D8;
-    --off-white-17: #F9F9F9;
+    --off-white-1: #ffe9f7;
+    --off-white-2: #ffdcf2;
+    --off-white-3: #ffcbeb;
+    --off-white-4: #ffdaf1;
+    --off-white-5: #fff7fc;
+    --off-white-6: #ffe2f4;
+    --off-white-7: #ffe7f6;
+    --off-white-8: #ffc8ea;
+    --off-white-9: #ffceec;
+    --off-white-10: #ffecf8;
+    --off-white-11: #ffedf8;
+    --off-white-12: #ffceec;
+    --off-white-13: #ffdcf2;
+    --off-white-14: #ffc4e8;
+    --off-white-15: #ffe1f4;
+    --off-white-16: #ffb5e3;
+    --off-white-17: #fff6fb;
     --lb-white: #CFE1F6;
     --blue-1: #1198D9;
     --blue-2: #4692BF;
@@ -557,7 +558,7 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-  background-color: var(--off-white-13) !important;
+  background: var(--off-white-13) none 6px 8px no-repeat;
   background-image: url("https://www.chickensmoothie.com/Forum/styles/CSDullGreen/theme/images/quote.gif");
   border-color: var(--off-white-14);
 }
@@ -1277,4 +1278,7 @@ body.lostandfound .popover-body {
         color: var(--black);
     }
     
+    .nav-adopt-new {
+  background: var(--nav-adopt) no-repeat;
+    }
 }

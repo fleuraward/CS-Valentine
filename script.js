@@ -22,6 +22,7 @@ const adoptandstoreimgs = {
     'second-generation pets':'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/2ndgens.png',
     'hatchery':'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/hatchery.png',
     'other':'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/other.png',
+    'special event':'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/specialevent.png',
 
     'category.php?id=8': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/accessories.png',
     'category.php?id=11': 'https://raw.githubusercontent.com/fleuraward/CS-Valentine/refs/heads/main/assets/wigs.png',
