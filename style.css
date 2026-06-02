@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name         CS Valentine
-@namespace    USO Archive
+@namespace    Chicken Smoothie Themes
 @author       june "layercake" "fleuraward" claw
 @description  Switch to CS DULL GREEN to use. Need accompanying userscript to fix various pages like adopts and pet bgs. Most of the css was ripped straight from the site, I edited all the images myself (yay...) and changed everything to use variables for easier editing. This means some notes in the original css might still be in there
-@version      20260601.01
+@version      20260530.02
 @license      NONE
 @preprocessor uso
 ==/UserStyle== */
@@ -1229,7 +1229,7 @@ body.lostandfound .popover-body {
     
     .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
   border: 1px solid var(--ui-border);
-  background: #4e68bc var(--ui-flat) 50% 50% repeat-x;
+  background: #af4185 var(--ui-flat) 50% 50% repeat-x;
     }
     
     
@@ -1240,7 +1240,7 @@ body.lostandfound .popover-body {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
   border:1px solid var(--ui-soft-border);
-  background:#6a84d9 var(--ui-soft) 50% 50% repeat-x;
+  background:#9c2d72 var(--ui-soft) 50% 50% repeat-x;
 }
     
     
